@@ -1,0 +1,37 @@
+.navbar {
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    height:100vh;
+    width: 5rem;
+    border-left: 5pt, black;
+
+}
+
+.navbar #logo {
+    margin-top: 2em;
+}
+
+.navbar #profile {
+    border-radius: 50%;
+    margin-bottom: 1.5em;
+    height: 3.4rem;
+}
+
+.nav-icon {
+    color: #b4b3b3;
+    font-size: 1.7rem;
+    margin: 0 0 1rem;
+    padding: 0.5em;
+
+}
+
+.nav-icon:hover {
+    background-color: #b4b3b3;
+    color: #3535e1;
+    border-radius: 5px;
+}
+
+/*Things to do: 
+    - add media queries for smallest mobile resolutions*/
