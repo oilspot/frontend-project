@@ -23,9 +23,9 @@ const navbarItems = [
 const Navbar = () => {
 
     return (
-        <div className="navbar flex-coloumn justify-content-center align-content-between">
+        <div className="navbar flex-coloumn justify-content-center align-content-between m-0">
             <div className="logo row col-sm-12">
-                <img src={logo} alt={'Logo'} id={'logo'} />
+                <Link to={"/"}><img src={logo} alt={'Logo'} id={'logo'} /></Link>
             </div>
             <div className="menu row col-sm-12">
                 {

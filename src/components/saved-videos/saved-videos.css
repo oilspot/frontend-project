@@ -1,0 +1,32 @@
+.video-card {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 0.3em;
+
+}
+
+.video-card-img {
+    background-image: url('../../img/actors/actor01.jpg');
+    background-size: cover;
+    border-radius: 5px;
+    padding: 1em;
+    height: 30vh;
+}
+
+h1 {
+    margin: 1em 0 0;
+}
+
+.video-card-text span {
+    color: #b4b3b3;
+    font-size: 0.7em;
+    padding: 3px 9px 3px;
+    display: inline-block;
+    border: solid #b4b3b3 2px;
+    border-radius: 15px;
+}
+
+.video-card-text {
+    margin: 0.3em 0 0.3em;
+    font-weight: 500;
+}

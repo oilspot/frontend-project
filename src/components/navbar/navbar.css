@@ -5,12 +5,13 @@
     left: 0;
     height:100vh;
     width: 5rem;
-    border-left: 5pt, black;
+    border-right: 5pt, black;
 
 }
 
 .navbar #logo {
     margin-top: 2em;
+    max-width: 4rem;
 }
 
 .navbar #profile {

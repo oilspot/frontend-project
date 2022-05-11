@@ -1,0 +1,7 @@
+.form-login-background {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../../img/logo-big.png');
+    background-repeat: no-repeat;
+    background-position: 40vw;
+    background-size: 30%;
+    height: 60vh;
+}
