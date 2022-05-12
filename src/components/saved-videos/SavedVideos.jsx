@@ -2,6 +2,12 @@ import './saved-videos.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEllipsis } from "@fortawesome/free-solid-svg-icons"
 
+/**
+ * 
+ * SavedVideos component is supposed to contain all saved projects, giving the possibility to edit each of them.
+ * Following it returns a front end demo of one single saved project.
+ * 
+ */
 
 export default function SavedVideos() {
     return (

@@ -3,6 +3,13 @@ import ProfileHeader from "../profile-header/ProfileHeader";
 import { faFilePdf, faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+/**
+ * 
+ * Billing component returns a table with all related datas (front end only).
+ * It has its own stylesheet.
+ */
+
+
 export default function Billing() {
     return (
         <>
@@ -21,22 +28,22 @@ export default function Billing() {
                     </thead>
                     <tbody>
                         <tr>
-                        <td>4571222f6rththurei998i91</td>
-                        <td>11/05/2022</td>
-                        <td>$28.00</td>
-                        <td><FontAwesomeIcon icon={faFilePdf}  className={'pdf-icon'} /></td>
+                            <td>4571222f6rththurei998i91</td>
+                            <td>11/05/2022</td>
+                            <td>$28.00</td>
+                            <td><FontAwesomeIcon icon={faFilePdf}  className={'pdf-icon'} /></td>
                         </tr>
                         <tr>
-                        <td>4571222f6rththurei998i91</td>
-                        <td>10/05/2022</td>
-                        <td>$14.00</td>
-                        <td><FontAwesomeIcon icon={faFilePdf}  className={'pdf-icon'} /></td>
+                            <td>4571222f6rththurei998i91</td>
+                            <td>10/05/2022</td>
+                            <td>$14.00</td>
+                            <td><FontAwesomeIcon icon={faFilePdf}  className={'pdf-icon'} /></td>
                         </tr>
                         <tr>
-                        <td>4571222f6rththurei998i91</td>
-                        <td>09/05/2022</td>
-                        <td>$26.00</td>
-                        <td><FontAwesomeIcon icon={faFilePdf}  className={'pdf-icon'} /></td>
+                            <td>4571222f6rththurei998i91</td>
+                            <td>09/05/2022</td>
+                            <td>$26.00</td>
+                            <td><FontAwesomeIcon icon={faFilePdf}  className={'pdf-icon'} /></td>
                         </tr>
                     </tbody>
                 </table>

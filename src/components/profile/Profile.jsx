@@ -4,6 +4,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEdit } from '@fortawesome/free-solid-svg-icons';
 import userphoto from './img/user-photo.jpg';
 
+/**
+ * 
+ * Profile component returns the main user settings, allowing the change of credentials (front end demo only).
+ * It has its own stylesheet and a child component, ProfileHeader, which contains the profile menu. 
+ *  
+ */
+
 export default function Profile() {
     return (
         <>

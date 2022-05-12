@@ -3,6 +3,13 @@ import { Link } from 'react-router-dom';
 
 export default function Login() {
 
+    /**
+     * Login component is supposed to be shown as homepage of this App, and after a user logout. 
+     * It has its own stylesheet.
+     * Currently it renders a login in form, but a fake login has to be implemented. 
+     * Temporary link brings to the next page. Work in progress.
+     */
+
     return (
         <div className="form-login-background">
             

@@ -6,6 +6,11 @@ import VideoVoice from '../video-voice/VideoVoice';
 import VideoAlignment from '../video-alignment/VideoAlignment';
 import VideoBackground from '../video-background/Video-Background';
 
+/**
+ * 
+ * CreateVideos component returns the necessary content to build a new video project,
+ * and has some children components. It has its own stylesheet.
+ */
 
 export default function CreateVideos() {
     return (
@@ -37,8 +42,15 @@ export default function CreateVideos() {
 
                 <div className="video-feature my-2 col-sm-10 col-md-4 col-xl-4">
                     <div className="">
-                        Actor Voice Alignment Background
+                        <p>Actor Voice Alignment Background</p>
                     </div>
+
+{/*
+    Children components which need to be shown one at a time when the user clicks on the voice menu above.
+    Work in progress.
+
+*/}
+
                     <div><VideoActor /></div>
                     <div><VideoVoice /></div>
                     <div><VideoAlignment /></div>

@@ -15,6 +15,14 @@ import VideoAlignment from './components/video-alignment/VideoAlignment';
 import VideoBackground from './components/video-background/Video-Background';
 import VideoVoice from './components/video-voice/VideoVoice';
 
+/**
+ * Following: returning the App structure and routing all the components
+ * 
+ * Components as Login, Register, SavedVideos, NotFound are an indipendent route
+ * 
+ * Each child component is listed under its parent's route: 
+ * e.g. CreateVideos and Profile have children components, and their url will be /create/child-component or /profile/child-component
+*/
 
 function App() {
 

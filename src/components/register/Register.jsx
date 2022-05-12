@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
 
+    /**
+     * Register component renders a register form (front end demo only). 
+     */
+
 export default function Register() {
     return (
         <div className="form-login-background">

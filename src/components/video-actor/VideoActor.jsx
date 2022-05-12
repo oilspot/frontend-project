@@ -1,5 +1,12 @@
 import './video-actor.css';
 
+/**
+ * 
+ * VideoActor is a child component of CreateVideo component.
+ * It lists some setting options (front end demo only) and it has its own stylesheet.
+ * 
+ */
+
 export default function VideoActor() {
     return (
         <>

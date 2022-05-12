@@ -1,4 +1,12 @@
 export default function VideoVoice() {
+
+    /**
+     * 
+     * VideoVoice is a child component of CreateVideo component.
+     * It lists some players to choose the voice settings (front end demo only).
+     * 
+     */
+
     return (
         <>
             <h4>Voice</h4>

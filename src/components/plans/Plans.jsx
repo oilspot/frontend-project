@@ -3,6 +3,11 @@ import ProfileHeader from "../profile-header/ProfileHeader";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck, faXmark} from '@fortawesome/free-solid-svg-icons';
 
+/**
+ * 
+ * Plans component returns the offer plans, allowing an easy read of differences among them, and puts in evidence the current plan.
+ * It has its own stylesheet.
+ */
 
 export default function Plans() {
     return (
@@ -39,6 +44,9 @@ export default function Plans() {
             </div>
 
             <div className="plan-card-current col-md-5 col-xl-2 me-5 align-self-end">
+
+{/* Current plan, different style.*/}
+
                 <h4>Team</h4>
                 <ul>
                     <li><FontAwesomeIcon icon={faCheck}  className={'check-icon'} /> Nam laoreet diam non pulvinar fringilla.</li>

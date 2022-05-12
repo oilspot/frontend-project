@@ -1,6 +1,13 @@
 import './profile-header.css';
 import { Link } from 'react-router-dom';
 
+/**
+ * 
+ * Profile Header component is a personal navbar, visible to users when logged in in their personal area. 
+ * It contains the logout option (front end demo only) and a user menu. 
+ * This component has its own stylesheet.
+ */
+
 export default function ProfileHeader() {
     return (
         <div>
