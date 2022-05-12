@@ -4,6 +4,10 @@ a, a:hover, a:visited {
   text-decoration: none;
 }
 
+h1 {
+  margin: 1em 0 0;
+}
+
 .btn-green {
   color: #fff;
   font-weight: 500;
@@ -18,6 +22,42 @@ a, a:hover, a:visited {
 
 .btn-green a a:hover a:visited {
   color: #fff;
+  text-decoration: none;
+
+}
+
+.btn-grey {
+  color: #bababa;
+  font-weight: 500;
+  background: #f4f4f4;
+  margin: 10px;
+  padding: 5px 30px 5px;
+  border-style: 0px;
+  border-radius: 5px;
+  outline: none !important;
+  border: none;
+}
+
+.btn-grey a a:hover a:visited {
+  color: #bababa;
+  text-decoration: none;
+
+}
+
+.btn-white {
+  color: #6a88c2;
+  font-weight: 500;
+  background: #fff;
+  margin: 10px;
+  padding: 5px 30px 5px;
+  border-style: 0px;
+  border-radius: 5px;
+  outline: none !important;
+  border: none;
+}
+
+.btn-white a a:hover a:visited {
+  color: #f4f4f4;
   text-decoration: none;
 
 }
@@ -38,4 +78,24 @@ input:focus {
   outline: none !important;
   border: 2px solid #6a88c2;
   border-radius: 5px;
+}
+
+textarea {
+  width: 100%;
+  height: 20vh;
+  border-radius: 25px;
+  border-style: none;
+  margin-top: 1em;
+  padding: 20px 35px 20px;
+  color:#b4b3b3;
+  background-color: #fff;
+  min-height: 230px;
+
+}
+
+textarea:focus {
+  background-color: #fff;
+  outline: none !important;
+  border: 2px solid #6a88c2;
+  border-radius: 25px;
 }

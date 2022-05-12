@@ -1,0 +1,10 @@
+.profile-menu li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.logout {
+    color: brown;
+    font-size: 1.2em;
+    font-weight: 500;
+}

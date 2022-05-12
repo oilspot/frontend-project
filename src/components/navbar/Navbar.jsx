@@ -5,6 +5,7 @@ import { faDisplay, faVideo } from '@fortawesome/free-solid-svg-icons';
 import logo from './img/logo.png';
 import profile from './img/profile.png';
 
+
 const navbarItems = [
     {   
         display: 'Create Video',

@@ -1,0 +1,18 @@
+.arrow-icon {
+    font-size: 0.8em;
+}
+
+.table-bills {
+    margin-top: 2em;
+    font-weight: 500;
+}
+
+.table-bills thead {
+    margin-bottom: 1.4em;
+    color: #b4b3b3;
+    text-transform: uppercase;
+}
+
+.table-bills td {
+    padding: 20px 0 20px;
+}

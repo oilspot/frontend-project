@@ -1,0 +1,55 @@
+.video-actor {
+    position: relative;
+    height: 100px;
+    border-radius: 5px;
+    border: 3px #f4f4f4 solid;
+    margin: 0.5em;
+    color: #b4b4b4;
+    font-weight: bold;
+    
+}
+
+.video-actor-sel {
+    position: relative;
+    height: 100px;
+    border-radius: 5px;
+    border: 3px #6a88c2 solid;
+    margin: 0.5em;
+    color: #6a88c2;
+    font-weight: bold;
+    
+}
+
+.video-actor-name {
+    position: absolute;
+    bottom: -40px;
+}
+
+.vincent-actor {
+    background-image: url('../../img/actors/actor01-small.jpg');
+    background-size: cover;
+}
+
+.yoyo-actor {
+    background-image: url('../../img/actors/actor02-small.jpg');
+}
+
+.skye-actor {
+    background-image: url('../../img/actors/actor03-small.jpg');
+}
+
+.michelle-actor {
+    background-image: url('../../img/actors/actor04-small.jpg');
+}
+
+.anna-actor {
+    background-image: url('../../img/actors/actor05-small.jpg');
+}
+
+.katia-actor {
+    background-image: url('../../img/actors/actor06-small.jpg');
+}
+
+.may-actor {
+    background-image: url('../../img/actors/actor07-small.jpg');
+}

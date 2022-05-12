@@ -1,0 +1,63 @@
+.plan-cards ul {
+    list-style: none;
+    padding: 0;
+}
+
+.plan-cards li {
+    margin-bottom: 15px;
+}
+
+h4 {
+    font-weight: 700;
+}
+
+.plan-cards span {
+    color: #03034d;
+    font-weight: 700;
+}
+
+
+.amount {
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.plan-cards button {
+    display: block;
+    color: #3860ad;
+    background-color: #ebf2ff;
+    margin: 10px;
+    padding: 10px 40px 10px;
+    border-style: 0px;
+    border-radius: 5px;
+    outline: none !important;
+    border: none;
+    font-weight: 600;
+    font-size: 1.1em;
+
+}
+
+.check-icon {
+    color: #03034d;
+    font-weight: bold;
+}
+
+.plan-card-current {
+    padding: 2em;
+    color: #fff;
+    background-color: #46b13d;
+    border-radius: 15px;
+}
+
+.plan-card-current button {
+    padding: 0;
+    color: #1c7714;
+    background-color: #46b13d;
+    font-size: 1.7em;
+}
+
+.plan-card-current .check-icon,
+.plan-card-current span,
+.plan-card-current .amount {
+    color: #fff;
+}
