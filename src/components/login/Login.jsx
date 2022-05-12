@@ -16,7 +16,7 @@ export default function Login() {
                         <label htmlFor="email">Email address</label>
                         <input type="text" name="email" placeholder="Enter your email" required></input>
 
-                        <div classname="justify-content-between">
+                        <div className="justify-content-between">
                             <label htmlFor="password">Password</label> <span>Forgot?</span>
                         </div>
                         <input type="password" name="password" placeholder="Enter your password" required></input>

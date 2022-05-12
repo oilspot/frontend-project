@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     height:100vh;
-    width: 5rem;
+    width: 50px;
     border-right: 5pt, black;
 
 }
@@ -34,5 +34,18 @@
     border-radius: 5px;
 }
 
-/*Things to do: 
-    - add media queries for smallest mobile resolutions*/
+/*@media screen and (max-width: 768px) {
+
+    .navbar #logo,
+    .nav-icon,
+    .navbar #profile {
+        max-width: 20pt;
+        height: auto;
+        padding:auto;
+        margin: auto;
+        left:0;
+    }
+}*/
+
+/*hamburger menu for smallest resolution needed*/
+
